@@ -4,7 +4,7 @@ export const LOCAL_STORAGE_MODEL_KEY = 'ai_smart_bin_model_url';
 export const LOCAL_STORAGE_MAPPING_KEY = 'ai_smart_bin_class_mappings';
 
 // Default sample model
-export const SAMPLE_MODEL_URL = 'https://teachablemachine.withgoogle.com/models/G4Kmx8un8/';
+export const SAMPLE_MODEL_URL = 'https://teachablemachine.withgoogle.com/models/kHV7yLdnV/';
 
 export function inferBinFromLabel(label: string): BinType | 'IGNORE' {
   const clean = label.trim().toLowerCase();

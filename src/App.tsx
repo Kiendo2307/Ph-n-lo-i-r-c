@@ -128,9 +128,9 @@ export default function App() {
     serialManagerRef.current = manager;
     setIsSerialSupported(manager.isSupported());
 
-    // Restore model URL (prioritizing the requested model G4Kmx8un8)
+    // Restore model URL (prioritizing the requested model kHV7yLdnV)
     const storedUrl = localStorage.getItem(LOCAL_STORAGE_MODEL_KEY);
-    const activeUrl = (!storedUrl || storedUrl.includes('oW5F2m9U8')) ? SAMPLE_MODEL_URL : storedUrl;
+    const activeUrl = (!storedUrl || storedUrl.includes('oW5F2m9U8') || storedUrl.includes('G4Kmx8un8')) ? SAMPLE_MODEL_URL : storedUrl;
     setModelUrl(activeUrl);
     localStorage.setItem(LOCAL_STORAGE_MODEL_KEY, activeUrl);
 

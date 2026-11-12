@@ -46,7 +46,7 @@ export const ModelConfig: React.FC<ModelConfigProps> = ({
   const sampleModels = [
     {
       title: 'Mô hình phân loại rác AI Smart Bin (Vô cơ/Tái chế & Hữu cơ)',
-      url: 'https://teachablemachine.withgoogle.com/models/G4Kmx8un8/',
+      url: 'https://teachablemachine.withgoogle.com/models/kHV7yLdnV/',
     },
     {
       title: 'Mô hình chuẩn mở rộng (Organic / Inorganic / Other)',
