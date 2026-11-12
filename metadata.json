@@ -1,0 +1,6 @@
+{
+  "name": "AI SMART BIN",
+  "description": "Thùng rác thông minh phân loại bằng AI kết nối micro:bit qua Web Serial USB",
+  "requestFramePermissions": ["camera", "serial"],
+  "majorCapabilities": []
+}
